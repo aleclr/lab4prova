@@ -28,8 +28,8 @@ public class RacaoService {
         return racaoRepository.save(racao);
     };
 
-    public List<Racao> buscaRacaoPorCriterios(Float quantidadeEstoque, Integer nota) {
-        return racaoRepository.findByquantidadeEstoqueLessThanAndnotaGreaterThan(quantidadeEstoque, nota);
+    public List<Racao> buscaRacaoPorCriterios(Float QuantidadeEstoque, Integer Nota) {
+        return racaoRepository.findByQuantidadeEstoqueLessThanAndNotaGreaterThan(QuantidadeEstoque, Nota);
     };
 
 }

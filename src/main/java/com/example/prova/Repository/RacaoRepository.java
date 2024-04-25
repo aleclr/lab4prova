@@ -8,6 +8,6 @@ import com.example.prova.Entity.Racao;
 
 public interface RacaoRepository extends JpaRepository<Racao, Long> {
     
-    LinkedList<Racao> findByquantidadeEstoqueLessThanAndnotaGreaterThan (Float quantidadeEstoque, Integer nota);
+    LinkedList<Racao> findByQuantidadeEstoqueLessThanAndNotaGreaterThan (Float QuantidadeEstoque, Integer Nota);
 
 }

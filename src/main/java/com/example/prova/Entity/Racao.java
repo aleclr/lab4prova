@@ -2,8 +2,6 @@ package com.example.prova.Entity;
 
 import java.time.LocalDateTime;
 
-import org.antlr.v4.runtime.misc.NotNull;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -35,9 +33,9 @@ public class Racao {
     }
 
     @Column(name = "rac_quantidade_estoque")
-    private Float quantidadeEstoque;
+    private Float QuantidadeEstoque;
 
     @Column(name = "rac_nota")
-    private Integer nota;
+    private Integer Nota;
 
 }
