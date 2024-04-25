@@ -26,6 +26,14 @@ public class Racao {
     @Column(name = "rac_data_hora_ultima_compra")
     private LocalDateTime dataHoraUltimaCompra;
 
+    public LocalDateTime getDataHoraUltimaCompra() {
+        return dataHoraUltimaCompra;
+    }
+
+    public void setDataHoraUltimaCompra(LocalDateTime dataHoraUltimaCompra) {
+        this.dataHoraUltimaCompra = dataHoraUltimaCompra;
+    }
+
     @Column(name = "rac_quantidade_estoque")
     private Float quantidadeEstoque;
 
